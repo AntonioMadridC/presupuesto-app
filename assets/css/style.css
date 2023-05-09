@@ -1,0 +1,45 @@
+.caja {
+    position: relative;
+}
+
+label {
+    font-weight:600;
+}
+
+.overlay {
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    border-radius: 3%;
+    border: 1px solid;
+    pointer-events: none;
+  }
+
+.overlaygreen {
+    background-color: rgba(37, 192, 97, 0.2); /* Black background with opacity */
+    border-color: green;
+}
+.overlayred {
+    background-color: rgba(192, 37, 37, 0.2); /* Black background with opacity */
+    border-color: red;
+}
+
+.borderless td {
+    border: none;
+}
+
+.azul {
+    color:dodgerblue ;
+    cursor: pointer;
+}
+
+remove-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
